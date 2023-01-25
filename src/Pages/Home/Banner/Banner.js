@@ -5,8 +5,8 @@ import bg from '../../../assets/images/bg.png';
 const Banner = () => {
     return (
         <div >
-            <div className="hero  " style={{ backgroundImage: `url(${bg})`, height: 556, }} >
-                <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero py-16 " style={{ backgroundImage: `url(${bg})`, }} >
+                <div className="hero-content flex-col md:flex-col lg:flex-row-reverse">
                     <img src={chair} className="lg:w-1/2 rounded-lg shadow-2xl" alt='' />
                     <div >
                         <h1 className="text-5xl font-bold">Box Office News!</h1>
