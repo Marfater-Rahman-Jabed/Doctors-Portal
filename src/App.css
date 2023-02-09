@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+:root {
+  --my-color: #fff;
+  /* or any other variables/style */
+}
+
+.dark {
+  --my-color: #000;
+  color: blue;
+}
+
+.light {
+  --my-color: white;
+
+}
+
+body {
+  background-color: var(--my-color);
 }
